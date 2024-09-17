@@ -97,7 +97,7 @@ console.log(a>>2);
 */
 
 /*
-right shift
+right shift -->shift the elements to right side 
 
 0 0 0 0 1 0 1 0
 0  0 0 0 0 0 1 0
