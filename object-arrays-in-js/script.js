@@ -81,13 +81,15 @@ let temp=[]
 for(let i=1;i<=15;i++)
     temp.push(i);
 
-temp.splice(1,2)// start from index 1 remove two elements here it will take splce(startIndex,no of elements to remove
+console.log("reverse",temp.reverse())
 
-temp.splice(1,0,10000,20000);// from 1st index it will numbers 
+temp.splice(1,2)// start from index 1 remove two elements here it will take splce(startIndex,no of elements to remove)
+
+temp.splice(1,0,10000,20000);// from 1st index it will add two with removing  numbers 
 
 console.log(temp)
 
-//map in js  it doesnt modify original array
+//map in js  it doesnt modify original array it will give new array with modified data
 
 let temp2=[1,2,3,4];
 let ans=temp2.map((item)=>item**2); // this map will used to iterate the whole array and so some operation  and it will return a new Array 
@@ -125,10 +127,10 @@ console.log(res)
 
 let t5=[100,2000,1,-1,0];
 
-t5.sort((a,b)=>a-b);
+t5.sort((a,b)=>a-b).reverse();
 // check two numbers a  and   b  if a is smaller than b (correct order)  if a==b both are qual no need to swap but a>b here we have to swap  both a and b
 
-console.log(t5)
+console.log("t5",t5)
 
 //descending order
 t5.sort((a,b)=>b-a);
@@ -142,6 +144,7 @@ let arr4=[1,2,3,4,5,6,7,8]
 
 //forEach  
 //in this for Each loop  break oe continue of  loop concept is not avaiable and for each loop is used to traverse the arrays i.e it works with arrays  and iterable objects but forEach not able to traverse string
+//forEach will take callback function this callback function will call of each element
 arr4.forEach((curr)=>console.log(curr)) 
 
 //normal loop
@@ -149,7 +152,7 @@ for(let i=0;i<arr4.length;i++)
     console.log(arr4[i]**3)
 
 
-//for of loop is used to traverse the string and array i.e arrays and iterable objects
+//for of loop is used to traverse the string and array i.e arrays and iterable objects like map,set
 
 for(let i of arr4)
 console.log(i)
