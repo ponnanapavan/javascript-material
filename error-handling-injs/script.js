@@ -20,12 +20,22 @@ try{
 
 //we can also throw cutom error using throw keyword
 
-try{
+// try{
 
-     console.log(x);
+//      console.log(x);
 
-}catch(err){
+// }catch(err){
 
-    throw new Error("some thing went wrong!!!!")
+//     throw new Error("some thing went wrong!!!!")
 
-}
+// }
+
+
+
+
+let age=10;
+
+if(age<20)
+    throw "number must be greater than 20"
+
+console.log("hello")
