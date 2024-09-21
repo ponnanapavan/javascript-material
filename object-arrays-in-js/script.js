@@ -17,7 +17,7 @@ obj.greet();
 
 let obj2=obj;
 
-console.log(obj === obj2)// here obj and obj2 is pointing to same memory location so we getting true as a outout 
+console.log(obj === obj2)// here obj and obj2 is pointing to same memory location so we getting true as a output 
 
 
 //shallow copy  means we are copying top-level of an object.here we not creating fresh copy instaed both are pointing to same location .so if we do  change one then it will reflected to original part 
