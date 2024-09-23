@@ -1,0 +1,26 @@
+#heading{
+     background-color: yellow;
+
+}
+
+
+.heading1{
+     background-color: black;
+     color: white;
+}
+
+.div{
+      height: 300px;
+      width: 100px;
+      background-color: darkgoldenrod;
+      border:2px solid black;
+}
+
+.ponnana{
+
+    height: 300px;
+      width: 100px;
+      background-color: red;
+      border:2px solid black;
+
+}
