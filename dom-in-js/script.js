@@ -137,14 +137,14 @@ console.log(divAttribute.getAttribute('name')) // it will give content of name a
 
 divAttribute.setAttribute('name','csePonnanaPavan');
 
-console.log(div.getAttribute('name'))
+console.log(divAttribute.getAttribute('name'))
 //------------------------------------------------------------------------------------------------------------->
 //node.style
 
 const divStyle=document.querySelector('.div');
 
-div.style.backgroundColor="green"
-div.style.fontSize="30px"
+divStyle.style.backgroundColor="green"
+divStyle.style.fontSize="35px"
 
 //------------------------------------------------------------------------------------------------>
 //insert elements
