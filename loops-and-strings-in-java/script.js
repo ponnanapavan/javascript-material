@@ -61,7 +61,7 @@ console.log(str.substring(2,7))//it will start giving the string from index 2 ti
 //split method in js
 
 let str1="ponnana pavan";
-console.log(str1.split('a').join(','))// it is used to join array of elements with separator
+console.log(str1.split('a').join(','))// join  is used to join array of elements with separator
 
 let str2="ponnana \"pavan\""
 console.log(str2)
