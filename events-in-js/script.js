@@ -14,16 +14,19 @@
 
 ////2nd method using event handlers in javascript
 
-// const btn=document.getElementById('btn').onclick=change
+const btn=document.getElementById('btn')
+btn.onclick=function(){
+       console.log("ponnana pavanm")
+}
 
 
 //3rd method using addEventListener()
 
-const btn1=document.getElementById('btn').addEventListener('click',function(){
-        document.body.style.background='red'
-})
+// document.getElementById('btn').addEventListener('click',function(){
+//         document.body.style.background='red'
+// })
 
-//addEventListenser will take two parameters one is 
+//addEventListenser will take two parameters one is action should be perfrom second one call back function 
 
 
 // let sp=document.getElementById('sp')
