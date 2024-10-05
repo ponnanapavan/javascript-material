@@ -31,6 +31,23 @@ let a={
 let b=a;
 b.name="pavam"
 
+
+//2nd method
+
+
+let p={
+      name:"pavan",
+      show:{
+          name:"pavan"
+      },
+      b:[1,2,3,4]
+}
+
+let q={...p};
+q.show.name="pavan pavan";   // here shallow copy work for nested objects and  nested arrays
+p.b[3]=1000000
+console.log(p);
+
 console.log(a);  // it will change the original part  object a
 
 //deep copy in this all the data  will copy  but it will pointed to different memory location and  we creating a new object so both copied and original are independent each other so if we change copied data it is not reflected to original part 
@@ -41,9 +58,11 @@ let c={
      name:"ponnana pavan"
 }
 
-let d={... c};
-d.name="cse";
-console.log(c)
+let d=Object.assign({},c);
+
+d.name="ponnana";// this deep copy i.e simple copy the data but not share the memory
+
+console.log(c,d);
 
 
 //----------------------------------------------------------------------------------------------------->
