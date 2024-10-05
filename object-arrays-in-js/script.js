@@ -89,7 +89,8 @@ arr.push(10);// add 10 to arr array at last
 arr.pop();// remove the last element 
 arr.shift();// it will remove the element of atmost left
 arr.push(10);
-arr.push(2000)
+arr.push(2000)//push function is used to add element from back side
+arr.unshift(10000)//this unshift is used to add the element from first
 
 //slice
 console.log(arr.slice(2,5))// slice the array from start index 2 to end-1 index 4
@@ -146,7 +147,7 @@ console.log(res)
 
 let t5=[100,2000,1,-1,0];
 
-t5.sort((a,b)=>a-b).reverse();
+t5.sort((a,b)=>a-b).reverse();//sort function will take call back function which it have two parameters so by comparing two parameters it will sort the array 
 // check two numbers a  and   b  if a is smaller than b (correct order)  if a==b both are qual no need to swap but a>b here we have to swap  both a and b
 
 console.log("t5",t5)
