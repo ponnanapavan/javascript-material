@@ -39,6 +39,12 @@ function validateCart(cart) {
   return true;
 }
 
+//a promise is object which it tell whether a asynchronous operation is success or not.
+
+//promise is used to overcome problem if callback hell and also to get control over asynchronous code .
+
+//we can create a promise by using new Promise() constructor.
+
 //resolve and reject are methods which given by javascript
 //resolve means promise successfull and reject means promise failed
 //intially promise is pending after promise fullfilled then then method will run but if promise is failed the catch method will excute
