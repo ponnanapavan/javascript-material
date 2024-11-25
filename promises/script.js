@@ -49,4 +49,4 @@ function validateCart(cart) {
 //resolve means promise successfull and reject means promise failed
 //intially promise is pending after promise fullfilled then then method will run but if promise is failed the catch method will excute
 
-//then method will return a promise.If we want to excute a series of asynchronou promises then we have  to use promise chaining.
+//then method will return a promise.If we want to excute a series of asynchronou taks then we have  to use promise chaining concept.
