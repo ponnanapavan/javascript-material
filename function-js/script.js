@@ -181,3 +181,13 @@ function curry(fn) {
 const sum1 = (a, b, c, d, e, f) => a + b + c + d + e + f;
 const totalSum = curry(sum1);
 console.log(totalSum(1)(2)(3)(4)(5)(6));
+
+//------------------------------------------------------------------------------------------->
+
+//uses of currying
+// Reusability: Create mini-functions like double, triple, etc.
+// Avoid Repetition: Reuse common logic like greetings or event listeners.
+// Function Chaining: Build complex functions step by step.
+// Customization: Pre-fill some arguments (like discounts) and reuse them.
+// Delayed Execution: Great for event handlers.
+// Readable Code: Cleaner, modular, and easy-to-understand logic.
